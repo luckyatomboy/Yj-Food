@@ -1,0 +1,15 @@
+<script language="javascript">
+	function OpenHTMLEditor(){
+		window.open('htmleditor/editor.html','','width=768,height=500,top=10,left=10');
+	}
+	function OpenHTMLPreview(){
+		srcstr=document.all.content.value
+		srcstr=srcstr.replace("[HTML]","");
+		srcstr=srcstr.replace("[/HTML]","");
+		PreviewPage=window.open('','_blank','');
+		PreviewPage.document.write(srcstr);
+	}
+</script>
+<input type=button name=b1 style="width:100px;" value="HTML±à¼­Æ÷" onclick="javascript:OpenHTMLEditor();">
+<input type=button name=b2 style="width:100px;" value="Ô¤ÀÀ" onclick="javascript:OpenHTMLPreview();"><br>
+<textarea name=content style="width:600px;height:300px;"></textarea>

@@ -1,0 +1,3 @@
+UPDATE `ss_parameters` SET `val` = 'sitestar_v2.4' WHERE `key` = 'SYSVER';
+UPDATE `ss_parameters` SET `val` = '2' WHERE `key` = 'THUMB_STATUS';
+UPDATE `ss_parameters` SET `val` = 'frontpage,mod_article,mod_auth,mod_cart,mod_category_a,mod_category_p,mod_counter,mod_download,mod_download_category,mod_friendlink,mod_lang,mod_media,mod_menu,mod_message,mod_navigation,mod_offline,mod_onlinepay,mod_order,mod_product,mod_qq,mod_static,mod_template,mod_tool,mod_user,mod_menu_item,mod_modules,mod_param,mod_payaccount,mod_site,mod_news,mod_statistics,mod_database,mod_filemanager,mod_backup,mod_wizard,mod_about,mod_marquee,mod_attachment,mod_advert,mod_sitestarmaker,mod_bulletin,mod_page,mod_content,mod_roles,mod_category_d,mod_bshare,' WHERE `key` = 'ALLOWED_MOD';

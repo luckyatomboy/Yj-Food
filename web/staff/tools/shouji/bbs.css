@@ -1,0 +1,21 @@
+<style type="text/css">
+a:link {  text-decoration: none; color: #1C5F82}
+a:visited {  text-decoration: none; color: #1C5F82}
+a:hover {  text-decoration: underline;color: #CC5533}
+.tdc {  font-family: "ËÎÌו"; font-size: 9pt; color: #333333}
+.tdc1 {  font-family: "ËÎÌו"; font-size: 9pt; color: #ffffff}
+.bdtj{background: #6699CC; border: 1px solid; border-color:#6699CC; color: FFFFFF; font-size: 9pt; height: 18px}
+BODY {
+SCROLLBAR-HIGHLIGHT-COLOR: #f7f7f7;
+        SCROLLBAR-SHADOW-COLOR: #f7f7f7;
+        SCROLLBAR-ARROW-COLOR: #EFF1F3;
+        SCROLLBAR-TRACK-COLOR: #EFF1F3;
+        SCROLLBAR-BASE-COLOR: #f7f7f7
+}
+</style>
+
+<% 
+tColor1="#f7f7f7"
+tColor2="#EFF1F3"
+bgColor="0092f2" 
+%>

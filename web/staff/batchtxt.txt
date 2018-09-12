@@ -1,0 +1,33 @@
+orderid=request("orderid")
+batch=request("batch")
+
+batch,orderid,
+'"&batch&"','"&orderid&"',
+
+	    <td align="right" height="30">¶©µ¥ºÅ£º</td>
+        <td class="category">
+		  <input name="orderid" value="<%=orderid%>" style="width:150px">
+		</td>
+      </tr>
+	  <tr>
+	    <td align="right" height="30">ÅúºÅ£º</td>
+        <td class="category">
+		  <input name="batch" value="<%=batch%>" style="width:150px">
+		</td>
+      </tr>
+	  <tr>
+	  
+batch  like '%"&nowkeyword&"%' or orderid  like '%"&nowkeyword&"%' or
+
+    <th>¶©µ¥ºÅ</th>
+      <th>ÅúºÅ</th>
+
+    <td class="category" height="30">
+	  ¶©µ¥ºÅ
+	</td>
+    <td class="category" height="30">
+	  ÅúºÅ
+	</td>
+	
+		<td align="center" height="25"><%=rs_buy("orderid")%></td>
+	<td align="center" height="25"><%=rs_buy("batch")%></td>	  

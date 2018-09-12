@@ -1,0 +1,14 @@
+LOCK TABLES `ss_online_qqs` WRITE;
+UPDATE ss_online_qqs SET account='151362036';
+UNLOCK TABLES;
+LOCK TABLES `ss_site_infos` WRITE;
+UPDATE ss_site_infos SET site_name='网站名称',keywords='站点关键字',description='站点描述';
+UNLOCK TABLES;
+LOCK TABLES `ss_friendlinks` WRITE;
+UPDATE ss_friendlinks SET fl_img = 'friend_link.gif',fl_addr='http://mobanpifa.com/',fl_name='企业网站模板';
+UNLOCK TABLES;
+LOCK TABLES `ss_module_blocks` WRITE;
+UPDATE ss_module_blocks SET s_param='a:4:{s:7:"img_src";s:20:"images/site_logo.png";s:8:"img_desc";s:0:"";s:9:"img_width";s:3:"288";s:10:"img_height";s:2:"48";}' where alias="mb_logo" and s_locale="zh_CN";
+UPDATE ss_module_blocks SET s_param = 'a:1:{s:4:"html";s:169:"Copyright &copy 2009-2014,mobanlin.com,All rights reserved<br />版权所有 &copy 企业网站模板 未经许可 严禁复制 建议使用1024X768分辨率浏览本站";}' where alias="mb_foot" and title = '';
+UPDATE ss_module_blocks SET s_param = 'a:1:{s:4:"html";s:302:"<div id="com_con_sq" class="com_con_sq">Power by <a style="display:inline;" title="模板林" target="_blank" href="http://mobanlin.com/">模板林</a>|<a style="display:inline;" title="企业网站模板" target="_blank" href="http://mobanlin.com/">企业网站模板下载</a>&nbsp;版权所有</div>";}' where alias="mb_foot" and title is NULL;
+UNLOCK TABLES;

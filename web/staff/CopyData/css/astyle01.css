@@ -1,0 +1,27 @@
+body , table , div , input , textarea , select {font-family:ËÎÌו;font-size:12px;
+	scrollbar-highlight-color: buttonface;
+	scrollbar-shadow-color: buttonface;
+	scrollbar-dlight-color: buttonhighlight;
+	scrollbar-track-color: #eeeeee;
+	scrollbar-darkshadow-color: buttonshadow;
+}
+.LinkA a:link{text-decoration:none;color:#990000;}
+.LinkA a:visited{text-decoration:none;color:#505050;}
+.LinkA a:hover {
+/*border-bottom-style : dotted;
+border-bottom-color : #a8c8ee;
+border-bottom-width : 2px;*/
+color: #ff0000;
+/*text-decoration: underline;*/
+text-decoration:none;
+}
+.LinkA a:active{color:#0000ff;}
+.input{border:solid 1px #848284;height:20px;line-height:18px;}
+.inputbgtra{border:solid 1px #848284;background-color:transparent;}
+
+.bottomborder {border-left:solid 0px;border-right:solid 0px;border-top:solid 0px;border-bottom:solid 1px;}
+
+form {margin:0px;}
+/*
+table-layout:fixed; word-break:break-all;
+*/

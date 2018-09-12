@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<node>
+<lang>zh_CN</lang>
+<logo_src>template/images/agent_site_logo.png</logo_src>
+<logo_width>299</logo_width>
+<logo_height>92</logo_height>
+<bbs_title>模板林</bbs_title>
+<bbs_url>http://mobanlin.com/</bbs_url>
+<bbs_description>企业网站模板下载</bbs_description>
+<host_title>主机域名</host_title>
+<host_url>http://www.5525.com.cn/</host_url>
+<host_description>自定义快捷方式简介</host_description>
+<footer>模板林网站建设系统 V2.7 <br />Copyrigt@2014 mobanlin.com All Right Reserved</footer>
+</node>
+<node>
+ <lang>en</lang>
+ <logo_src>template/images/agent_site_logo.png</logo_src>
+ <logo_width>299</logo_width>
+ <logo_height>92</logo_height>
+ <bbs_title>模板林</bbs_title>
+ <bbs_url>http://mobanlin.com/</bbs_url>
+ <bbs_description>企业网站模板下载</bbs_description>
+ <host_title>主机域名</host_title>
+ <host_url>http://www.5525.com.cn/</host_url>
+ <host_description>Better Host,Better Site</host_description>
+ <footer>模板林网站建设系统 V2.7 &lt;br /&gt;Copyrigt@2014 mobanlin.com All Right Reserved</footer>
+</node>
+<node>
+ <lang>08080</lang>
+ <logo_src>template/images/agent_site_logo.png</logo_src>
+ <logo_width>299</logo_width>
+ <logo_height>92</logo_height>
+ <bbs_title>模板林</bbs_title>
+ <bbs_url>http://mobanlin.com/</bbs_url>
+ <bbs_description>企业网站模板下载</bbs_description>
+ <host_title>主机域名</host_title>
+ <host_url>http://www.5525.com.cn/</host_url>
+ <host_description>Better Host,Better Site</host_description>
+ <footer>模板林网站建设系统 V2.7 &lt;br /&gt;Copyrigt@2014 mobanlin.com All Right Reserved</footer>
+</node>
+</root>

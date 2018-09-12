@@ -1,0 +1,17 @@
+0000-0F41-BFEB-FBFF-0000-441D
+
+Gp_InsertBillIndex
+gp_UpdateBillIndex
+Gp_Validate
+Gp_EditLendBorrowIndex
+gp_UpdateBillIndex
+Gp_AddNewLogin
+Web_CopyBillToDraft
+Web_CopyBillToAnotherDraft
+gp_CreateMenuItemForASP
+GP_CheckCurLoginUserCountForASP
+GP_AddNewLogin
+Gp_Auditing
+GP_CreateMx
+GP_CheckCurLoginUserCountForASP
+GP_CheckLanSing

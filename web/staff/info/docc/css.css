@@ -1,0 +1,15 @@
+table {
+	font-size: 12px;
+	line-height: 18px;
+	color: #000000;
+}
+a {
+	font-size: 12px;
+	color: #0033CC;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 12px;
+	color: #0099CC;
+	text-decoration: underline;
+}

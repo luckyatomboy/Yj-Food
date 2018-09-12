@@ -1,0 +1,45 @@
+<attach event="onmouseover" onevent="over()"/>
+<attach event="onmouseout" onevent="out()"/>
+<attach event="onmousedown" onevent="down()"/>
+<attach event="onmouseup" onevent="up()"/>
+<script language="Javascript">
+function over(){
+	style.borderRight='1px solid buttonshadow';
+	style.borderBottom='1px solid buttonshadow';
+	style.borderLeft='1px solid buttonhighlight';
+	style.borderTop='1px solid buttonhighlight';
+	style.position='relative';
+	style.left='0px';
+	style.top='0px';
+}
+
+function out(){
+	style.borderLeft='1px solid buttonface';
+	style.borderTop='1px solid buttonface';
+	style.borderRight='1px solid buttonface';
+	style.borderBottom='1px solid buttonface';
+	style.position='relative';
+	style.left='0px';
+	style.top='0px';
+}
+
+function down(){
+	style.borderLeft='1px solid buttonshadow';
+	style.borderTop='1px solid buttonshadow';
+	style.borderRight='1px solid buttonhighlight';
+	style.borderBottom='1px solid buttonhighlight';
+	style.position='relative';
+	style.left='1px';
+	style.top='1px';
+}
+
+function up(){
+	style.borderRight='1px solid buttonshadow';
+	style.borderBottom='1px solid buttonshadow';
+	style.borderLeft='1px solid buttonhighlight';
+	style.borderTop='1px solid buttonhighlight';
+	style.position='relative';
+	style.left='0px';
+	style.top='0px';
+}
+</script>
